@@ -19,9 +19,11 @@ Para más información sobre color, contraste y el espacio de color YIQ:
   @import 'yiq-color-contrast'
   ```
 
+
 ### Variables configurables
 
 Todas las variables están asignadas con `!default`, así que se las puede reemplazar en tu nuevo proyecto.
+
 
 El color de texto que se usa cuando el color de fondo es "light" (claro)
 
@@ -29,11 +31,13 @@ El color de texto que se usa cuando el color de fondo es "light" (claro)
   $yiq-contrasted-dark-default: #000;
   ```
 
+
 El color de texto que se usa cuando el color de fondo es "dark" (oscuro)
 
   ```scss
   $yiq-contrasted-light-default: #fff;
   ```
+
 
 A a value between 0 and 255. It determines when the lightness of color changes from "dark" to "light".
 
@@ -41,11 +45,13 @@ A a value between 0 and 255. It determines when the lightness of color changes f
   $yiq-contrasted-threshold: 128;
   ```
 
+
 Toggles diagnostic messages.
 
   ```scss
   $yiq-debug: false;
   ```
+
 
 ### Functions
 
@@ -54,11 +60,13 @@ Returns `true` if the color is "light" or `false` if it is "dark".
   ```scss
   yiq-is-light($color, [$threshold])
   ```
+
 Returns the `$light` color when the `$color` is dark and the `$dark` color when the `$color` is light. The `$threshold` is a value between 0 and 255 and it determines when the lightness of `$color` changes from "dark" to "light".
 
   ```scss
   yiq-contrast-color($color, [$dark], [$light], [$threshold])
   ```
+
 
 ### Mixins
 
@@ -68,9 +76,11 @@ Sets the specified background color and calculates a dark or light contrasted te
   @include yiq-contrasted($background-color, [$dark], [$light], [$threshold])
   ```
 
+
 ### Demo
 
 Check out how the YIQ color contrast compares to the default Compass color contrast: http://timhettler.github.io/compass-yiq-color-contrast/
+
 
 ##Licencia
 Licenciado bajo la licencia MIT.
