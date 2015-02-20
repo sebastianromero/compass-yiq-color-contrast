@@ -1,4 +1,4 @@
-# Compass YIQ Color Contrast
+# YIQ Color Contrast Sass function
 
 The default color contrast function that Compass provides determines if a color is "light" or "dark" by checking its lightness in the HSL color space. Occassionally this function will produce color pairings that - while functionally correct - just look a little "off". The reason for this is that the eye is more sensitive to changes in the orange-blue range than in the purple-green range, so the percieved lightness of a color can change depending its wavelength.
 
