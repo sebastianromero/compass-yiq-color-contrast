@@ -83,7 +83,7 @@ Check out how the YIQ color contrast compares to the default Compass color contr
 
 
 ##Licencia
-Licenciado bajo la licencia MIT.
+Bajo licencia MIT.
 
 Copyright &copy; 2015 Tim Hettler
 
